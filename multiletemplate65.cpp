@@ -18,6 +18,7 @@ class myclass
 };
 int main()
 {
-    myclass<int, float> obj(1,2,8);
+    myclass<int, float> obj( 1 ,2,8);
     obj.display();
+    return 0;
 }
